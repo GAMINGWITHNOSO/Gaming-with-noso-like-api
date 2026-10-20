@@ -20,7 +20,7 @@ VALID_API_KEYS = {
 }
 
 # 🔢 Like limit tracking
-daily_limit = 40
+daily_limit = 27
 used_count = 0
 
 
