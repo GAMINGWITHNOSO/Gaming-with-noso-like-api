@@ -26,7 +26,7 @@ used_count = 0
 
 def load_tokens(region):
     try:
-        if region == "BD":
+        if region == "IND":
             with open("token_ind.json", "r") as f:
                 tokens = json.load(f)
         elif region in {"BR", "US", "SAC", "NA"}:
